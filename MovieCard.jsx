@@ -1,5 +1,5 @@
-import "../styles/MovieCard.css"
-import { useMovieContext } from "../contexts/MovieContext"
+import "./MovieCard.css"
+import { useMovieContext } from "./MovieContext"
 
 function MovieCard({movie}) {
     const {isFavorite, addToFavorites, removeFromFavorites} = useMovieContext()
